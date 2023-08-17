@@ -1,0 +1,19 @@
+name: git_hub_api_client
+description: A Dart client for the GitHub API.
+version: 0.0.0-a1
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies: 
+  corsac_jwt: ^1.0.0-nullsafety.1
+  googleapis_auth: ^1.4.1
+  http: ^0.13.4
+  json_utils:
+    git: https://github.com/enspyrco/json_utils
+  
+dev_dependencies:
+  enspyr_lints:
+    git: https://github.com/enspyrco/enspyr_lints
+  test: ^1.16.0
